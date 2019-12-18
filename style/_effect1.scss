@@ -3,8 +3,21 @@
     text-transform: uppercase;
     margin: 2px;
     font-family: 'Caveat', cursive;
+    font-size: 4rem;
 }
 
-.child:hover{
-    color: powderblue;
+.text-child:hover{
+    background-color: cadetblue;
 }
+
+.text-child:hover + .text-grow{
+    background-color: powderblue;
+    display: block;
+}
+
+.text-grow{
+    padding: 15px;
+    display: none;
+    font-size: 2rem;
+}
+
