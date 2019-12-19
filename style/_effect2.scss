@@ -1,10 +1,7 @@
 .build-parent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     position: relative;
     width: 50%;
+    left: 25%;
 }
 
 .build-image{
@@ -37,8 +34,9 @@
 }
 
 .build-text{
-    background-color: #4CAF50;
+    background-color: #FFAB40;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+    font-family: 'Pacifico', cursive;
 }

@@ -1,0 +1,22 @@
+.button-child{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #B3E5FC;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button-child:hover{
+    background-color: #80D8FF;
+}
+
+.button-child:active{
+    background-color: #80D8FF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
