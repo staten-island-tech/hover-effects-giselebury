@@ -1,3 +1,10 @@
+.button-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
 .button-child{
     padding: 15px 25px;
     font-size: 24px;
