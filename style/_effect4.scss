@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
+    //background-color: lightblue;
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -18,9 +18,9 @@
     border-radius: 50%;
 }
 
-#one:before{
-    content: "Hover Me!";
-}
+// #one:before{
+//     content: "Hover Me!";
+// }
 
 #one{
     background-color: rgba(0,0,225,0.45);
@@ -47,3 +47,34 @@
     opacity: 0.5;
 }
 
+#four{
+    background-color: orange;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+#five{
+    background-color: lightgreen;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+#cc{
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+}
+
+#cc:hover #two {
+	transform: translate(0px, 75px);
+}
+#cc:hover #three {
+	transform: translate(0px, -75px);
+}
+#cc:hover #four {
+	transform: translate(75px, 0px);
+}
+#cc:hover #five {
+	transform: translate(-75px, 0px);
+}

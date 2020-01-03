@@ -1,0 +1,23 @@
+.label-parent{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    font-size: 30px;
+    margin: 2px;
+}
+
+#label1{
+    background-color: lightblue;
+    width: 30vh;
+    height: 6vh;
+}
+
+#label2{
+    background-color: lightcoral;
+    width: 30vh;
+    height: 6vh; 
+}
