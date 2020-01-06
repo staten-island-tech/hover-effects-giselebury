@@ -14,10 +14,20 @@
     background-color: lightblue;
     width: 30vh;
     height: 6vh;
+    transition: 1s;
 }
 
 #label2{
     background-color: lightcoral;
     width: 30vh;
     height: 6vh; 
+    transition: 1s;
+}
+
+#label1:hover{
+    background-color: white;
+}
+
+#label2:hover{
+    background-color: white;
 }
